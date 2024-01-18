@@ -1,17 +1,17 @@
 * {
 
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 16px;
 }
 
 body {
-    background-color: red;
-    background: black;
+    background-color: black;
 
 }
 
 main {
-    background-color: white;
+    background-color: black;
     width: 500px;
     margin: auto;
     padding: 10px;
