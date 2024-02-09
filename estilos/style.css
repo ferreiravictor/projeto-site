@@ -1,11 +1,16 @@
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
   }
   
   .container {
     max-width: 600px;
-    margin: 0 auto;
     padding: 20px;
+    text-align: center;
   }
   
   h1 {
@@ -13,7 +18,7 @@ body {
   }
   
   input[type="text"] {
-    width: 100%;
+    width: calc(100% - 72px); /* Considerando a largura do botão */
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
@@ -34,6 +39,7 @@ body {
   ul {
     list-style-type: none;
     padding: 0;
+    text-align: left;
   }
   
   li {
